@@ -6,6 +6,7 @@
 - Phone: +7996-309-72-09
 - Email: annaspacer7@gmail.com
 - GitHub: https://github.com/Vietta7
+- Discord: @Vietta7
 
 ## About Me
 I'm a beginner front-end developer. My main goal is to constantly develop and improve my skills!
