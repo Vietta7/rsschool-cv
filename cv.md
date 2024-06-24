@@ -8,7 +8,7 @@
 - GitHub: https://github.com/Vietta7
 
 ## About Me
-I'm a beginner front-end developer. My main goal is to constantly develop and improve my skills.
+I'm a beginner front-end developer. My main goal is to constantly develop and improve my skills!
 
 ## Skills
 
