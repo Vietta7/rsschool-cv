@@ -3,8 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code Examples</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <div class="main-section">
+                <img src="assets/img/avatar.jpg" alt="profile-logo" class="main-section__photo">
+            </div>
+
+            <section class="main-section__title">
+                <h1 class="main-title">Anna Belova</h1>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="contact-list">
+                    <li class="contacts-item"><a href="https://yandex.ru/maps/968/cherepovets/?ll=37.903466%2C59.122613&z=13">Location: Cherepovetz, Russia</a></li>
+                    <li class="contacts-item"><a href="tel:+79963097209">Phone: +7996-309-72-09</a></li>
+                    <li class="contacts-item"><a href="mailto:annaspacer7@gmail.com">Email: annaspacer7@gmail.com</a></li>
+                    <li class="contacts-item"><a href="https://github.com/Vietta7">GitHub</a></li>
+                    <li class="contacts-item">Discord: Vietta7</li>
+                </ul>
+            </section>
+
+            <section class="about" id="about">
+                <h2>About Me</h2>
+                <p>I'm a beginner front-end developer. My main goal is to constantly develop and improve my skills!</p>
+            </section>
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">JavaScript</li>
+                    <li class="skills-item">Python (Django)</li>
+                    <li class="skills-item">Linux</li>
+                    <li class="skills-item">Git/Github</li>
+                </ul>
+            </section>
+
+            <section class="code" id="code">
+                <h2>Code Examples</h2>
+                <pre><code>    const slides = document.querySelectorAll('.slide')
+                    for (const slide of slides) {
+                    slide.addEventListener('click', () => {
+                        clearActiveClasses()
+
+                        slide.classList.add('active')
+                    })
+                    }
+                    function clearActiveClasses() {
+                    slides.forEach((slide) => {
+                        slide.classList.remove('active')
+                    })
+                    }</code></pre>
+            </section>
+
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    <li class="education-item">Cherepovets State University</li>
+                    <li class="education-item"><a href="https://skillfactory.ru/python-fullstack-web-developer">Fullstack developer</a></li>
+                </ul>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <ul class="projects-list">
+                    <li class="projects-item">
+                        <a href="https://vietta7.github.io/Loft/">Учебный проект Loft House
+                            <img class="project-photo" src="assets/img/work1.jpg" alt="photo">
+                        </a>
+                    </li>
+                    <li class="projects-item">
+                        <a href="https://vietta7.github.io/Interior/">Учебный проект Interior
+                            <img class="project-photo" src="assets/img/work2.jpg" alt="photo">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="english" id="english">
+                <h2>English</h2>
+                <p>Pre-intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <a href="https://github.com/Vietta7/"><img class="gh-image" src="assets/icons/icons8-github.svg" alt="footer-logo"></a>
+            </div>
+            <div class="year">
+            </div>
+            <div class="copy">&copy; 2024 Anna Belova</div>
+            <div class="rs-logo">
+                <a href="https://rs.school/courses/javascript-preschool-ru"><img class="rs-image" src="assets/icons/rs-logo.svg" alt="rschool-logo"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
